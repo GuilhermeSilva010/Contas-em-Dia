@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contas em Dia</title>
+
+    <link rel="stylesheet" href="lib/nivo-slider/themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="lib/nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+
+    <link rel="stylesheet" href="assets/CSS/estilo.css">
+
+
+</head>
+
+<body>
+    <p class="telContato">(11) 97755-0060</p>
+
+    <nav class="menu">
+        <!-- <img src="assets/IMG/contas.jpeg" alt="Logo Grupo Ideal"> -->
+        <ul>
+            <li><a href="#">HOME</a></li>
+
+            <li><a href="#">EMPRESA</a>
+                <ul class="subMenu1">
+                    <li id="teste" dropzone="rigth"><a href="#">Softwares</a>
+                        <ul class="subMenu2">
+                            <p><a href="https://www.youtube.com/">Contas em Dia</a>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li><a href="#"> CONTATO</a>
+                <ul class="subMenu1">
+                    <p>Email: titgi1000@gmail.com</p>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <!-- <hr>
+    <section class="secSlider"> 
+        <div id="slider" class="nivoSlider"> 
+            <img src="assets/IMG/slider01.jpg" data-thumb="images/toystory.jpg" alt="" /> 
+            <img src="assets/IMG/slider02.jpg" data-thumb="images/up.jpg" alt="" title="This is an example of a caption" />
+            <img src="assets/IMG/slider03.jpg" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft" /> 
+            <img src="assets/IMG/slider04.jpg" data-thumb="images/nemo.jpg" alt="" title="#htmlcaption" /> 
+        </div>
+    </section>
+
+    <hr> -->
+
+    <div class="conteudo">
+        
+            <header>
+                <h1>Documentação Software Contas em Dia</h1>
+            </header>
+                <img src="assets/IMG/login.jpeg" alt="Deserto" title="Area Logada">
+
+            <h2>Documentação Técnica.</h2>
+
+
+            <p>     o Sistema permite criar um novo usuario e criar um login no sistema, para poder começar 
+                a registrar suas contas.
+                    Após criar seus dados e se logar no sistema você tem um CRUD para inserir dados das divídas.
+            </p>
+
+            <h2> Interface de Front-end</h2>
+
+            <p>
+                Camada responsável por coletar as informações do usuário e dados da conta a ser adicionada  no sistema.
+                Nessa camada que está sendo feita a validações de senha entre outras, para melhorar a usabilidade do usuário. (Todas classes no código com nomes iniciais “tela” estão relacionadas ao FrontEnd.)
+            </p>
+
+            <h2>BackEnd For Front-end</h2>
+
+            <p>Camada responsável por receber as informações da camada anterior e desacoplar o código, nessa camada está sendo utilizada apenas para repasse das informações e seguir os conceitos arquitetural de boas práticas.
+            (Classe responsável por esse serviço está nomeada de BFFUsuario)</p>
+
+            <h2>BackEnd</h2>
+
+            <p>Camada responsável por receber as informações da camada anterior e desacoplar o código, nessa camada está sendo utilizada apenas para repasse das informações e seguir os conceitos arquitetural de boas práticas. 
+                Como não executamos nenhuma regra de negócio no sistema essa camada ficou com responsabilidade apenas de repassar as informações para a camada de dados.
+                (Classe responsável por esse serviço está nomeada de BEUsuario)
+            </p>
+
+            <h2>Dados</h2>
+
+            <p>Responsável por receber as informações da camada anterior e fazer conexão e interações com a base de dados. 
+                (Classe responsável por essa função está nomeada de Dados) </p>
+    </div>
+
+    <hr>
+
+    <div class="destaque">
+        <header><h2>Boxes de destaque</h2></header>
+        <section class="imgs">
+            <section><img src="assets/IMG/login.jpeg" alt=""><p><a href="#">Area de Login</a></p></section>
+            <section><img src="assets/IMG/novo-usuario.jpeg" alt=""><p><a href="#">Area da Criação de novo usuario</a></p></section>
+            <section><img src="assets/IMG/area-logada.jpeg" alt=""><p><a href="#">Area Logada do Usuario</a></p></section>
+            <section><img src="assets/IMG/nome-classes.jpeg" alt=""><p><a href="#">Classes do Sistema</a></p></section>
+    </section>
+    </div>
+    <hr>
+    <footer class="rodape">
+        <ul>
+            <li><a href="#">HOME</a></li>
+        </ul>
+
+        <H3>Referências e documentações</H3>
+            <p><a href="https://github.com/GuilhermeSilva010/Contas-em-Dia"> Link Código fonte no GitHub</a></p>
+        
+        <h3>Integrantes do Projeto</h3> 
+            <p><a href="https://www.linkedin.com/in/guilherme-carvalho010/">Linkedin: Guilherme Carvalho</a></p>
+            <p><a href="https://www.linkedin.com/in/luis-cunha-430096195/">Linkedin: Luis Cunha</a></p>
+            <p><a href="https://www.linkedin.com/in/jefferson-cunha-1a4aa51bb">Linkedin: Jefferson Cunha</a></p>
+            <p><a href="https://www.linkedin.com/in/yago-valderoza-20a46916a">Linkedin: Yago Valderoza</a></p>
+        </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <script src="assets/JS/jquery-3.6.0.js"></script>
+        <script src="lib//nivo-slider/jquery.nivo.slider.js "></script>
+        <script src="assets/JS/Script.js"></script>
+    </footer>
+</body>
+
+</html>
